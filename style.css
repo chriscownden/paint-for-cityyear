@@ -21,6 +21,14 @@ body {
   display: flex;
   justify-content: center;
   cursor: pointer;
+  color: whitesmoke;
+  font-family: Oswald, sans-serif;
+}
+
+h3 {
+  margin: 10px;
+  color: whitesmoke;
+
 }
 
 /* Font Awesome Icons */
@@ -96,6 +104,7 @@ body {
   height: 35px;
   position: relative;
   top: 4px;
+  bottom: 4px;
   left: -5px;
   background-color: whitesmoke;
   border-radius: 5px;
@@ -154,19 +163,9 @@ body {
 canvas#canvas {
   position: absolute;
   top: 50px;
+  bottom: 50px;
   cursor: crosshair;
   z-index: 10;
-}
-
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: black;
-  color: whitesmoke;
-  text-align: center;
-  margin: 0;
 }
 
 /* Mobile Message */
